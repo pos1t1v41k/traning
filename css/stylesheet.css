@@ -1,0 +1,108 @@
+:root {
+   --accent-blue: #2196F3E5;
+   --basic-text-color: #212121;
+   --second-text-color: #757575;
+   --white-text: #ffff;
+   --basic-bg: #E5E5E5;
+   --second-bg: #2F303A;
+   --white-bg: #ffff;
+   --animation-bg: rgba(33, 150, 243, 0.9);
+   --label-bg: rgba(47, 48, 58, 0.8);
+   --commands-bg: #F5F4FA;
+}
+a {
+   text-decoration: none;
+}
+li {
+   list-style: none;
+}
+body {
+   background-color: var(--basic-bg);
+   color: var(--basic-text-color);
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
+/* блок хедер */
+.header {
+   background-color: var(--white-bg);
+}
+.header-logo {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   color: var(--basic-text-color);
+   letter-spacing: 0.03em;
+
+}
+.color-blue {
+   color: var(--accent-blue);
+}
+
+.navigation-links {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.15;
+   letter-spacing: 0.02em;
+   color: var(--basic-text-color);
+}
+
+.adress-links {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.15;
+   letter-spacing: 0.02em;
+   color: var(--second-text-color);
+}
+
+
+/* блок герой */
+.hero {
+   background-color: var(--second-bg);
+}
+
+/* блок description */
+.description {
+   background-color: var(--basic-bg);
+}
+
+/* block work */
+
+
+/* block our_command */
+.our_command {
+   background-color: var(--commands-bg);
+}
+
+/*  block footer */
+.footer {
+   background-color: var(--second-bg);
+}
+
+.footer_logo {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   color: var(--white-text);
+   letter-spacing: 0.03em;
+}
+
+.footer-adress-links {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color: var(--white-text);
+}
+.footer-connect-links {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------------------------------- PORTFOLIO -------------------------- */
+
