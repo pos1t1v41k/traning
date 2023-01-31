@@ -8,50 +8,54 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <title>WebStudio</title>
 </head>
 <body>
    <header class="header">
-      <a href="./index.html" class="header-logo"><span class="color-blue">Web</span>Studio</a>
-      <nav class="navigation">
-         <ul class="navigation-list">
-            <li class="navigation-item-list">
-               <a class="navigation-links" href="./index.html" rel="noopener" target="_blank">Студія</a>
-            </li>
-            <li class="navigation-item-list">
-               <a class="navigation-links" href="./portfolio.html" rel="noopener" target="_blank">Портфоліо</a>
-            </li>
-            <li class="navigation-item-list">
-               <a class="navigation-links" href="#" rel="noopener" target="_blank">Контакти</a>
-            </li>
-         </ul>
-      </nav>
-      <div class="heder-adress">
-         <ul class="heder-adress-list">
-            <li class="adress-item-list">
-               <a class="adress-links" href="mailto:info@devstudio.com" target="_blank" rel="">info@devstudio.com</a>
-            </li>
-            <li class="adress-item-list">
-               <a class="adress-links" href="tel:+380985653848">+38 098 565 38 48</a>
-            </li>
-         </ul>
+      <div class="container">
+         <a href="./index.html" class="header-logo"><span class="color-blue">Web</span>Studio</a>
+         <nav class="navigation">
+            <ul class="navigation-list list">
+               <li class="navigation-item-list">
+                  <a class="navigation-links" href="./index.html" rel="noopener" target="_blank">Студія</a>
+               </li>
+               <li class="navigation-item-list">
+                  <a class="navigation-links" href="./portfolio.html" rel="noopener" target="_blank">Портфоліо</a>
+               </li>
+               <li class="navigation-item-list">
+                  <a class="navigation-links" href="#" rel="noopener" target="_blank">Контакти</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="heder-adress">
+            <ul class="heder-adress-list list">
+               <li class="adress-item-list">
+                  <a class="adress-links" href="mailto:info@devstudio.com" target="_blank" rel="">info@devstudio.com</a>
+               </li>
+               <li class="adress-item-list">
+                  <a class="adress-links" href="tel:+380985653848">+38 098 565 38 48</a>
+               </li>
+            </ul>
+         </div>
       </div>
    </header>
    <main>
       <section class="hero">
-         <div >
-            <section>
-               <h1 class="hero__title">ефективні рішення для вашого бізнесу</h1>
-               <button class="hero_button" type="button">Замовити послугу</button>
-            </section>
+         <div class="container">
+            <div >
+               <section>
+                  <h1 class="hero__title">ефективні рішення для вашого бізнесу</h1>
+                  <button class="hero_button" type="button">Замовити послугу</button>
+               </section>
+            </div>
          </div>
-         
       </section>
    <section class="description">
-      <div>
+      <div class="container">
          <h2 class="description__title">Особливості</h2>
-         <ul>
-            <li>
+         <ul class="description-list list">
+            <li class="">
                <h3 class="second__title">УВАГА ДО ДЕТАЛЕЙ</h3>
                <p class="description__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
@@ -71,45 +75,57 @@
       </div>
    </section>
    <section class="work">
-      <div>
+      <div class="container">
          <h2 class="work__title">Чим ми займаємося</h2>
-      <ul>
+      <ul class="work__list list">
          <li>
-            <img src="./pictures/img.jpg" alt="напис коду на десктопі" width="370">
+            <img class="img__work" src="./pictures/img.jpg" alt="напис коду на десктопі" width="370">
          </li>
          <li>
-            <img src="./pictures/img1.jpg" alt="адаптація на смартфони" width="370">
+            <img class="img__work" src="./pictures/img1.jpg" alt="адаптація на смартфони" width="370">
          </li>
          <li>
-            <img src="./pictures/img2.jpg" alt="дизайн колір коду на планшеті" width="370">
+            <img class="img__work" src="./pictures/img2.jpg" alt="дизайн колір коду на планшеті" width="370">
          </li>
       </ul>
       </div>
    </section>
 
    <section class="our_command">
-      <div >
+      <div class="container">
       <h2 class="command__title">Наша команда</h2>
-      <ul>
+      <ul class="command__list list">
          <li>
-            <img src="./pictures/img3.jpg" alt="Ігор Дем'яненко" width="270">
-            <h3 class="person__title">Ігор Дем'яненко</h3>
-            <p class="person__status">Product Designer</p>
+            
+            <div class="person__container">
+               <img class="img__command" src="./pictures/img3.jpg" alt="Ігор Дем'яненко" width="270">
+               <h3 class="person__title">Ігор Дем'яненко</h3>
+               <p class="person__status">Product Designer</p>
+            </div>
          </li>
          <li>
-            <img src="./pictures/img4.jpg" alt="Ольга Рєпіна" width="270">
-            <h3 class="person__title">Ольга Рєпіна</h3>
-            <p class="person__status">Frontend Developer</p>
+            
+            <div class="person__container">
+               <img class="img__command" src="./pictures/img4.jpg" alt="Ольга Рєпіна" width="270">
+               <h3 class="person__title">Ольга Рєпіна</h3>
+               <p class="person__status">Frontend Developer</p>
+            </div>
          </li>
          <li>
-            <img src="./pictures/img5.jpg" alt="Микола Тарасов" width="270">
-            <h3 class="person__title">Микола Тарасов</h3>
-            <p class="person__status">Marketing</p>
+            
+            <div class="person__container">
+               <img class="img__command" src="./pictures/img5.jpg" alt="Микола Тарасов" width="270">
+               <h3 class="person__title">Микола Тарасов</h3>
+               <p class="person__status">Marketing</p>
+            </div>
          </li>
          <li>
-            <img src="./pictures/img6.jpg" alt="Михайло Єрмаков" width="270">
-            <h3 class="person__title">Михайло Єрмаков</h3>
-            <p class="person__status">UI Designer</p>
+            
+            <div class="person__container">
+               <img class="img__command" src="./pictures/img6.jpg" alt="Михайло Єрмаков" width="270">
+               <h3 class="person__title">Михайло Єрмаков</h3>
+               <p class="person__status">UI Designer</p>
+            </div>
          </li>
       </ul>
       </div>
