@@ -12,11 +12,13 @@
    <title>WebStudio</title>
 </head>
 <body>
-   <header class="header">
-      <div class="container">
-         <a href="./index.html" class="header-logo"><span class="color-blue">Web</span>Studio</a>
-         <nav class="navigation">
-            <ul class="navigation-list list">
+   <header >
+      <div class="container navigation-list">
+         <div class="logo">
+            <a href="./index.html" class="header-logo"><span class="color-blue">Web</span>Studio</a>
+         </div>
+         <nav>
+            <ul class="nav-list list">
                <li class="navigation-item-list">
                   <a class="navigation-links" href="./index.html" rel="noopener" target="_blank">Студія</a>
                </li>
@@ -55,19 +57,19 @@
       <div class="container">
          <h2 class="description__title">Особливості</h2>
          <ul class="description-list list">
-            <li class="">
+            <li class="description-list__item">
                <h3 class="second__title">УВАГА ДО ДЕТАЛЕЙ</h3>
                <p class="description__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
-            <li>
+            <li class="description-list__item">
                <h3 class="second__title">ПУНКТУАЛЬНІСТЬ</h3>
                <p class="description__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li>
+            <li class="description-list__item">
                <h3 class="second__title">ПЛАНУВАННЯ</h3>
                <p class="description__text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
+            <li class="description-list__item margin-reset">
                <h3 class="second__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                <p class="description__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
@@ -78,13 +80,13 @@
       <div class="container">
          <h2 class="work__title">Чим ми займаємося</h2>
       <ul class="work__list list">
-         <li>
+         <li class="work__list__item">
             <img class="img__work" src="./pictures/img.jpg" alt="напис коду на десктопі" width="370">
          </li>
-         <li>
+         <li class="work__list__item">
             <img class="img__work" src="./pictures/img1.jpg" alt="адаптація на смартфони" width="370">
          </li>
-         <li>
+         <li class="work__list__item margin-reset">
             <img class="img__work" src="./pictures/img2.jpg" alt="дизайн колір коду на планшеті" width="370">
          </li>
       </ul>
@@ -121,7 +123,7 @@
          </li>
          <li>
             
-            <div class="person__container">
+            <div class="person__container margin-reset">
                <img class="img__command" src="./pictures/img6.jpg" alt="Михайло Єрмаков" width="270">
                <h3 class="person__title">Михайло Єрмаков</h3>
                <p class="person__status">UI Designer</p>
@@ -132,12 +134,14 @@
    </section>
    </main>
    <footer class="footer">
-<a href="./index.html" target="_blank" class="footer_logo"><span class="color-blue">Web</span>Studio</a>
-<ul>
-   <li><a class="footer-adress-links" href="#" target="_blank" rel="noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
-   <li><a class="footer-connect-links" href="mailto:info@devstudio.com" target="_blank" rel="noopener">info@devstudio.com</a></li>
-   <li><a class="footer-connect-links" href="tel:+380985653848" target="_blank" rel="noopener">+38 098 565 38 48</a></li>
-</ul>
+      <div class="container adress">
+         <a href="./index.html" target="_blank" class="footer_logo"><span class="color-blue">Web</span>Studio</a>
+         <ul class="footer__adress__list list">
+            <li class="adress__list__item"><a class="footer-adress-links" href="#" target="_blank" rel="noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="adress__list__item"><a class="footer-connect-links" href="mailto:info@devstudio.com" target="_blank" rel="noopener">info@devstudio.com</a></li>
+            <li class="adress__list__item"><a class="footer-connect-links" href="tel:+380985653848" target="_blank" rel="noopener">+38 098 565 38 48</a></li>
+         </ul>
+      </div>
    </footer>
 </body>
 </html> 
